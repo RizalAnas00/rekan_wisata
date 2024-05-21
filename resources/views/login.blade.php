@@ -11,7 +11,7 @@
     <div class="px-8 py-10 bg-white rounded-lg shadow-md text-left w-full">
       <div class="flex justify-center pb-4 flex-col items-center">
         <!-- Pastikan path gambar sudah benar -->
-        <img src="logo2.jpg" alt="Rekan Wisata Logo" class="w-39 h-39">
+        <img src="images\logo_2.png" alt="Rekan Wisata Logo" class="w-39 h-39">
         <h1 class="text-2xl font-bold text-center">REKAN WISATA</h1>
       </div>
       <div class="container mx-auto px-2 py-8">
