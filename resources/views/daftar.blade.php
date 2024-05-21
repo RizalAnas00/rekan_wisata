@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rekan Wisata Login</title>
+  <title>Rekan Wisata Sign Up</title>
   @vite('resources/css/app.css')
 </head>
 <body>
@@ -25,6 +25,10 @@
               <div class="mb-4">
                 <label for="password" class="text-sm text-gray-600 block mb-2">Password</label>
                 <input type="password" id="password" class="bg-amber-50 text-gray-800 w-full px-2 py-2 rounded-2xl border border-stroke-2 border-lime-950 shadow-sm">
+              </div>
+              <div class="mb-4">
+                <label for="confirm_password" class="text-sm text-gray-600 block mb-2">Confirm Password</label>
+                <input type="password" id="confirm_password" class="bg-amber-50 text-gray-800 w-full px-2 py-2 mb-12 rounded-2xl border border-stroke-2 border-lime-950 shadow-sm">
               </div>
               <button type="submit" class="w-full rounded-2xl bg-lime-950 mh-6 px-2 py-3 text-center text-white font-medium shadow-sm hover:bg-lime-900 focus:outline-none focus:ring focus:ring-lime-950 focus:ring-opacity-100">Daftar</button>
             </form>
