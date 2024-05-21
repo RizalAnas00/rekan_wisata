@@ -12,7 +12,7 @@
       <div class="flex justify-center pb-4 flex-col items-center">
         <!-- Pastikan path gambar sudah benar -->
         <img src="logo2.jpg" alt="Rekan Wisata Logo" class="w-39 h-39">
-        <h1 class="text-2xl font-bold text-center">REKAN WISATA</h1>
+        <h1 class="text-2xl font-bold text-center">azka adalah saya</h1>
       </div>
       <div class="container mx-auto px-2 py-8">
         <div class="max-w-md mx-auto shadow-sm rounded-xl overflow-hidden">
