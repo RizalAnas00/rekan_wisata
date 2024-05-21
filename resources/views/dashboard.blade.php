@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Wisata</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @vite('resources/css/app.css')
 </head>
 <body class="bg-white">
 
@@ -59,14 +59,15 @@
         <div class="mb-8">
             <h2 class="text-2xl font-bold mb-2">Berita Pariwisata</h2>
             <div class="grid grid-cols-3 gap-4">
-                <x-card 
-                    name="Berita 1" 
-                    rating="4.0" 
-                    category="Berita" 
-                    address="Lokasi Berita 1" 
-                    image="images/logo_2.png"
-                />
-                <!-- Tambahkan lebih banyak card sesuai kebutuhan -->
+                @foreach($beritas as $berita)
+                    <x-card 
+                        name="{{ $berita->title }}" 
+                        rating="{{ $berita->rating }}" 
+                        category="{{ $berita->category }}" 
+                        address="{{ $berita->location }}" 
+                        image="https://via.placeholder.com/150"
+                    />
+                @endforeach
             </div>
         </div>
     </div>
