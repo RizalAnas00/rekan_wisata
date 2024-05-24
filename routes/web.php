@@ -9,6 +9,6 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
